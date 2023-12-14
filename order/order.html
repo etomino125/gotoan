@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>五戸庵公式サイト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="..\slick/slick.css" />
+    <link rel="stylesheet" href="..\slick/slick-theme.css" />
+    <link rel="stylesheet" href="..\CSS/style.css" />
+    <link rel="stylesheet" href="..\CSS/order.css" />
+    <link rel="icon" href="..\img\favicon.ico" />
+  </head>
+  <body>
+    <!---ヘッダーメニュー--->
+    <header class="header">
+      <div class="hamburger">
+        <div class="header-logo">
+          <a href="..\index.html">
+            <img
+              src="..\img\gotoanlogo.png"
+              alt="五戸庵のロゴ"
+              width="140"
+              height="54"
+            />
+          </a>
+        </div>
+
+        <p class="btn-header-nav-list">
+          <span></span>
+          <span></span>
+          <span></span>
+        </p>
+        <nav class="header-nav">
+          <ul class="header-nav-ul">
+            <li class="header-nav-li">
+              <a href="..\menu/menulist.html" class="header-nav-inr"
+                >メニュー</a
+              >
+            </li>
+            <li class="header-nav-li">
+              <a href="..\order\order.html" class="header-nav-inr">ご注文</a>
+            </li>
+            <li class="header-nav-li">
+              <a href="..\guide\guide.html" class="header-nav-inr">店舗案内</a>
+            </li>
+            <li class="header-nav-li">
+              <a href="..\contact/contact.html" class="header-nav-inr"
+                >お問い合わせ</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!---バナー-->
+      <section class="order-bnr bgDUextend">
+        <div class="order-bnr-bnr bgextend">
+          
+            <img class="pc bgappear" src="..\img\mobileorder_order.png" alt="モバイルオーダー" />
+            <img class="sp bgappear" src="..\img\mobileorder_smp.png" alt="モバイルオーダー"/>
+          
+        </div>
+      </section>
+      
+<!---デリバリーorピックアップ-->
+      <section class="mobileorder">
+          <!-- <h2>モバイルオーダー</h2> -->
+
+          <div class="mobileorder-box">
+
+          <ul class="top-chumon-button-ul">
+            <li class="top-chumon-button reverse"><a href="pickup.html" class="top-chumon-button-area"><span class="top-chumon-button-inr">待たずに受けとり</span><br><span>店舗受取</span></a></li>
+           <li class="top-chumon-button reverse"> <a href="delivery.html" class="top-chumon-button-area"><span class="top-chumon-button-inr">おうちや職場にお届け</span><br><span>デリバリー</span></a></li>
+          </ul>
+        </div>
+            
+            <span>※大量注文は電話にて承ります。</span>
+      </section>
+
+      <!---モバイルオーダーのメリット-->
+      <section class="mobileorder-merit">
+        <div class="merit flex delayScroll">
+          <h1 class="box">モバイルオーダーのメリット</h1>
+          <ul class="flex delayScroll">
+            <li class="box"> <h2>その１</h2> <h2>待ち時間ナシですぐに食べられる！</h2>自宅で注文して店舗で受け取ればすぐに受け取り可能！</li>
+            <li class="box"><h2>その２</h2> <h2>商品をゆっくり選べる！</h2>モバイルオーダーなら<br>自分のペースででゆっくり選べる！</li>
+            <li class="box"><h2>その３ </h2><h2>事前に支払いができて楽ちん！</h2>事前決済が可能なので、待ち時間短縮！<br>スタッフとのやりとりも最低限に！</li>
+          </ul>
+          </div>
+        </div>
+      </section>
+      
+      <!---電話注文-->
+      <section class="telorder flex delayScroll">
+        
+        <div class="telorder-box box">
+        <div class="telnumber"><img src="..\img\telicon.png" alt="電話アイコン"><span>電話注文
+        <br>000-000-0000</span></div><span><h2>受付時間<br>月～日<br>8:00～20:00</h2></span>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">&copy;Gotoan</footer>
+
+    <script src="..\js/jquery-3.7.1.min.js"></script>
+    <script src="..\js/slick.min.js"></script>
+    <script src="..\js/script.js"></script>
+  </body>
+</html>

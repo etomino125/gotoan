@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.menulist-pickup {
+  background-color: #ffffff;
+  padding: 2rem 0 0;
+  margin: 0;
+  flex: 1 1 auto;
+  position: relative;
+  align-items: center;
+  max-width: 100%;
+}
+
+.menulist-content {
+  max-width: 100%;
+  padding: 2rem 7rem 0;
+}
+
+.menulist {
+  padding: 2rem 3% 0;
+}
+
+.inputinfomation {
+  background-color: #ffffff;
+  padding: 2rem 0 0;
+  margin: 0;
+  flex: 1 1 auto;
+  position: relative;
+  align-items: center;
+  max-width: 100%;
+}
+
+.inputinfo {
+  max-width: 100%;
+  padding: 2rem 10% 0;
+}
+
+.formitem ul {
+  padding: 2rem 0 0;
+}
+
+.formitem dl {
+  display: flex;
+  width: 100%;
+}
+
+.formitem dt {
+  width: 250px;
+}
+
+.formarea {
+  width: 400px;
+  padding: 5px 12px 4px;
+}
+
+.button {
+  margin: 5% 0;
+}
+
+.formitem_button {
+  text-align: center;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .menulist-content {
+    padding: 2rem 4.5rem 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menulist-content {
+    margin: 0 5%;
+    padding: 0;
+  }
+
+  .menulist {
+    padding: 1rem 0;
+  }
+  .formitem dl {
+    display: block;
+    text-align: start;
+    padding: 0 5%;
+  }
+
+  .formitem dd {
+    margin: 0;
+  }
+
+  .formarea {
+    width: 80%;
+    padding: 1px 12px 1px;
+  }
+}
