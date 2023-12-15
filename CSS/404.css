@@ -47,9 +47,9 @@
 }
 
 .footer {
-  position: absolute; /* ←絶対位置 */
-  bottom: 0;
-  width: 100%;
+  /* position: absolute; ←絶対位置 */
+  /* bottom: 0;
+  width: 100%; */
 
   background-color: #fff;
 }
