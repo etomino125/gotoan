@@ -54,6 +54,13 @@
   background-color: #fff;
 }
 
+.footerFixed {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 900px) {
   .error404-bnr {
     padding: 0;
